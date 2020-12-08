@@ -20,6 +20,7 @@ export default class CovidList extends Component {
    }
 
    componentDidMount() {
+    // axios.get('https://covid19.mathdro.id/api')
        axios.get('https://api.covid19api.com/summary')
            .then(response => {
                this.setState({
