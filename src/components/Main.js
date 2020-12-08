@@ -43,9 +43,9 @@ class Main extends React.Component {
 
     return (
       <div>
-        <div className="row justify-content-center mt-3">
+        <div className="row justify-content-center">
           <div className="col-lg-4">
-            <div className="card text-white bg-dark mb-3 text-left shadow">
+            <div className="card text-white bg-danger mb-3 text-left shadow">
               <div className="card-body">
                 <p className="card-text">
                   Total Positif<br/>
@@ -67,7 +67,7 @@ class Main extends React.Component {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="card text-white bg-danger mb-3 text-left shadow">
+            <div className="card text-white bg-dark mb-3 text-left shadow">
               <div className="card-body">
                 <p className="card-text">
                   Total Meninggal<br/>

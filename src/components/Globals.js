@@ -44,9 +44,9 @@ export default class CovidList extends Component {
        return (
 
            <div>
-        <div className="row justify-content-center mt-3">
+        <div className="row justify-content-center mt-2">
           <div className="col-lg-4">
-            <div className="card text-white bg-dark mb-3 text-left shadow">
+            <div className="card text-white bg-danger mb-3 text-left shadow">
               <div className="card-body">
                 <p className="card-text">
                   Total Positif<br/>
@@ -68,7 +68,7 @@ export default class CovidList extends Component {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="card text-white bg-danger mb-3 text-left shadow">
+            <div className="card text-white bg-dark mb-3 text-left shadow">
               <div className="card-body">
                 <p className="card-text">
                   Total Meninggal<br/>
